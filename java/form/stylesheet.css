@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.form-1{
+    display: flex;
+    
+}
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0 40px;
+
+}
+.btn{
+    display: block;
+    padding: 13px 50px;
+    background-color: lightblue;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin: 10px auto;
+
+}
+
+.card{
+    background-color: #fff;
+    color:#333;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.4);
+    padding: 20px;
+    margin: 10px;
+
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+}
+.center{
+    justify-content: center;
+    align-items: center;
+}
+.btn:hover{
+    transform: scale(0.98);
+}
+.form-1{
+    position: relative;
+    top: 60px;
+    height: 350px;
+    width: 400px;
+    padding: 40px;
+    z-index: 100;
+    flex-direction: column;
+}
+
+
+
+form  input{
+    margin-top: 10px;
+    padding: 20px ;
+    ;
+    
+
+}
+form input[type="text"],form input[type="email"],form input[type="password"]{
+    border: 2px solid;
+    
+    width: 310px;
+    padding: 3px;
+    font-size: 16px;
+
+}
+
+form input[type="submit"]{
+    width: 180px;
+    margin: 5px auto;
+    align-items: center;
+    justify-content: center;
+}
