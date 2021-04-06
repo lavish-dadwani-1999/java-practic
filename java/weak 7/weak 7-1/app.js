@@ -62,6 +62,7 @@ function fetchpost(){
     if(users !==null){
         console.log("fetching from catch")
         var userarray =JSON.parse(users)
+        // or return promise.resolve(userarray) same as -> |
         return new Promise (function(resolve){
             resolve(userarray)
         })
